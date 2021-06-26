@@ -27,5 +27,5 @@ As of this version, the following are the funcionalities of Dalton:
 * __Search Wikipedia__: Ask Dalton to specifically search something in Wikipedia (otherwise Dalton will search on Google) and he will return with relevant information (if the data is there in Wikipedia)
 * __Play Music__: Ask Dalton to play some music, and dance to the tunes
 * __Send WhatsApp Message__: Send a message to predefined contacts via WhatsApp, all without even having to pick up your phone
-* __Tell a joke__: Feeling down? Dalton has an array of programmer-related [jokes and one-liners](https://pypi.org/project/pyjokes/) to brighten up your mood
+* __Tell a joke__: Feeling low? Dalton has an array of programmer-related [jokes and one-liners](https://pypi.org/project/pyjokes/) to brighten up your mood
 * __Fun Fact__: Want to get smarter? Dalton can help you. Get a random [fact](https://pypi.org/project/randfacts/) and enrich your GK.
