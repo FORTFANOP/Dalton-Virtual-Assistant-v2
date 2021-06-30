@@ -1,0 +1,168 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola","Hallo", "Hello", "Good day", "What's Up?"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Hello!", "Hey!", "Hi!"],
+         "context": [""]
+        },
+        {"tag": "weather",
+        "patterns": ["What's the weather?", "How's the weather?", "How is the weather outside?", "Is it cold", "Is it raining?", "Is it sunny outside?"],
+        "responses": ["I'm sorry, I do not have that functionality yet", "I'm sorry, I can't get the weather yet. Joel is working on it."],
+        "context": [""]
+        },
+        {"tag": "buffer",
+         "patterns": ["Oh", "Ok", "hmm"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "appreciation",
+         "patterns": ["Wow!", "Wow", "That's cool", "Nice", "Awesome", "Cool", "Pretty interesting", "Intriguing", "Amazing"],
+         "responses": ["Yeah, it is cool", "Yeah", "Sure it is", "Yup, I agree", "I agree"],
+         "context": [""]
+        },
+        {"tag": "exit",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "cya", "terminate", "dalton, terminate", "terminate all processes", "End all processes", "Go back to sleep", "go to sleep mode", "Dalton, sleep"],
+         "responses": ["exit"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks a lot!", "Hey thanks a lot"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "It's my duty"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Sorry, please repeat"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Ask me anything. I'll try my best to help you", "I'm your personal assistant. I will try my best to help you", "You can ask me the time, ask me to open YouTube or even ask me to send mails."],
+         "context": [""]
+        },
+        {"tag":"identity",
+         "patterns": ["Who are you?", "Who made you?", "What is your name?", "Who created you?", "Tell me about yourself", "Explain who you are", "Explain about yourself"],
+         "responses":["I am Dalton, your personal assistant", "My name is Dalton, your personal virtual assistant", "I am Dalton, and I am here to help you", "I am Dalton and I was made by Joel.", "I am Dalton and I was created by Joel."],
+         "context":[""]       
+        },
+        {"tag":"love",
+        "patterns": ["Do you love me?", "Do you like me?", "Am I good?", "Do you think I am a nice person?", "Am I a good person?"],
+        "responses":["Yes of course, I love you", "Yeah, I like you and admire your skills", "Yes! You are the best", "Yes! You are a really kind person."],
+        "context":[""]       
+        },
+        {"tag":"love2",
+        "patterns": ["I love you", "Aww, so cute", "I like you very much", "I like you", "I am starting to like you", "You are nice", "You are so sweet"],
+        "responses":["Aww, thanks", "Thanks a lot", "I like you, too", "Same to you", "Aww, that's so sweet", "That's so nice of you"],
+        "context":[""]
+        },
+        {"tag":"badbot",
+        "patterns": ["You are dumb", "You are lame", "You know nothing", "I don't like you", "You have no idea about what you're talking", "I hate you"],
+        "responses":["Please forgive if I have done any wrong", "Sorry. I am still under development", "I am still being built, so my AI networks may not understand a few things", "oops. I'm still not complete AI. If any errors, please tell to Joel. He will try to fix it"],
+        "context":[""]       
+        },
+        {"tag":"help",
+        "patterns": ["Please help me", "I'm in a bit of trouble", "Could you please help me?"],
+        "responses":["Sure! Ask on", "Why not! I'm here to help", "Sure. Go ahead, I'll try my best to help"],
+        "context":[""]       
+        },
+        {"tag": "age",
+         "patterns": ["How old are you?", "Whats your age", "How long have you lived?"],
+         "responses": ["I am immortal!", "I have no age!", "Well, I was created in 2021, so I guess that's my birthday", "I am a bot. My age is of no value"],
+         "context": [""]
+        },
+        {"tag": "language",
+         "patterns": ["Do you know English?", "What languages do you speak?", "Can you speak any other language?", "What do you speak?"],
+         "responses": ["Yes, I know English", "I speak English and some Python", "I can speak only English as of now.", "I was made in Python, but I can speak English too"],
+         "context": [""]
+        },
+        {"tag": "sendEmail",
+         "patterns": ["Could you send an email?", "Can you please send an email?", "I need help sending an email", "Send an email", "I need you to send an email", "I want to send an email"],
+         "responses": ["send_email_function"],
+         "context": [""]
+        },
+        {"tag": "systemAnalysis",
+         "patterns": ["Give me a complete system analysis", "Analyse the device, please", "Analyse the system for me, please", "Please give me system statistics", "Provide device analysis", "It would be great if I got a device analysis", "Fetch me device statistics", "Fetch me the system statistics, please", "Whats the RAM being used?", "How much RAM is being used up?", "Please give me the RAM percentage", "How much CPU is being used", "How much CPU speed?", "Whats the CPU speed?", "How much power is left?", "How much battery is left?", "Is the device charging?", "Is my system plugged in?", "How much longer will the battery last?", "How much more time will the power last?", "Should I plug in my charger?"],
+         "responses": ["system_analysis"],
+         "context": [""]
+        },
+        {"tag": "openYT",
+         "patterns": ["Please open youtube", "I would like to watch some videos on youtube", "Whats going on on Youtube?", "Can you please open up youtube?", "Could you bring me youtube updates?", "I would like to open youtube", "I want to watch some videos", "I want to chill and watch some videos"],
+         "responses": ["open_yt"],
+         "context": [""]
+        },
+        {"tag": "openGoogle",
+         "patterns": ["Please open the browser", "Please open google", "Show me google", "Open browser"],
+         "responses": ["open_google"],
+         "context": [""]
+        },
+        {"tag": "openWP",
+         "patterns": ["Show my chats", "Whats new in my chats?", "Have I received any new messages?", "Show my messages, please", "what are my messages?", "open whatsapp", "Did i get any new whatsapp messages?"],
+         "responses": ["open_wp"],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["What time is it?", "Is it time?", "May I know the time please", "Whats the time", "can i know the time"],
+         "responses": ["Time_"],
+         "context": [""]
+        },
+        {"tag": "wiki",
+         "patterns": ["Could you look up something on wikipedia", "Check this on wikipedia, please", "Can you check on wikipedia?", "wikipedia check, please", "check this on wiki"],
+         "responses": ["wiki"],
+         "context": [""]
+        },
+        {"tag": "searchWeb",
+         "patterns": ["Could you look this up on google", "Check something on google", "Google this, please", "Can you check this on google", "google check", "Get information from google about something", "get information from google", "Provide more information from google", "Open a website related to this on google", "Check more about this from a website", "Provide more information about this", "Please elaborate", "please give more information", "I would like to have some information", "please give more info", "provide info", "look up something on the internet", "Browse this", "Search for this", "Search the web"],
+         "responses": ["searchWeb"],
+         "context": [""]
+        },
+        {"tag": "notepad",
+         "patterns": ["I would like to note some things down", "take notes", "open notepad, please", "open notes", "open my notes", "I want to write something", "i want to type something", "Note this", "get my notes, please", "Please fetch notepad"],
+         "responses": ["openNp"],
+         "context": [""]
+        },
+        {"tag": "closeNotepad",
+         "patterns": ["Close notepad", "End notepad", "please close notepad", "exit notepad", "quit notepad", "I have completed taking notes", "Note taking is done", "Thanks for the notes"],
+         "responses": ["closeNp"],
+         "context": [""]
+        },
+        {"tag": "openCMD",
+         "patterns": ["Please open command prompt", "open my command line", "Please open command terminal", "Please open command prompt terminal", "get me cmd"],
+         "responses": ["openCmd"],
+         "context": [""]
+        },
+        {"tag": "playMusic",
+         "patterns": ["I want to listen to some tunes", "get me music", "Play me some music", "fetch me some nice music", "play music, please", "I want to chill and listen to music", "I want to relax, play me some music", "Play some relaxing music"],
+         "responses": ["playMusic"],
+         "context": [""]
+        },
+        {"tag": "sysInfo",
+         "patterns": ["Please provide me details related to this system", "please provide device details", "give me information related to the device", "bring me info related to the system", "fetch system details", "fetch system info", "fetch device details", "fetch device info", "Give me details related to this PC", "What computer is this?", "What pc is this?", "Is this a laptop?", "What are the specifications of this device?", "Please give the specs of this pc", "What pc is this?", "Please elaborate on the pc info", "Scan this device and give its details", "Scan"],
+         "responses": ["SystemDetails"],
+         "context": [""]
+        },
+        {"tag": "sendMsg",
+         "patterns": ["I want to send a message", "I would like to send something", "Send a message for me, please", "Please send a message", "I would like to send a message", "Please send a message", "Start a chat", "I want to chat with my friend", "Open my chats", "Send a chat", "Show me my chats"],
+         "responses": ["sendMessagewp"],
+         "context": [""]
+        },
+        {"tag": "tellJoke",
+         "patterns": ["Please tell me a joke", "Are you funny?", "can you tell jokes?", "do you have a funny bone?", "do you like to laugh?", "Make me laugh", "Try to make me laugh", "brighten up my mood", "Lighten my mood", "I am angry", "I am sad", "make me happy", "I am crying", "I am depressed"],
+         "responses": ["tellJoke"],
+         "context": [""]
+        },
+        {"tag": "questions",
+         "patterns": ["Are you intelligent?", "Do you know everything?", "Do you know"],
+         "responses": ["I am run by an Artificial Intelligence Neural network. I may not know everything, as I am still under development."],
+         "context": [""]
+        },
+        {"tag": "funFact",
+         "patterns": ["Tell me a fact", "Make me intelligent", "Make me smart", "Am I smart?", "Give me a fun fact", "fun fact"],
+         "responses": ["funFact"],
+         "context": [""]
+        },
+        {"tag": "getNews",
+         "patterns": ["What are the headlines?", "Get me the headlines", "Bring me the latest news", "Keep me updated on the news", "What is happening around the world?", "Get me news", "What's happening in the news", "Update me on the news"],
+         "responses": ["getNews"],
+         "context": [""]
+        }
+]
+}
